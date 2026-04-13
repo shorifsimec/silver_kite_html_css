@@ -179,9 +179,36 @@ p {
     font-size: 25px !important;
 }
 
-.readMoreHome{
-    background: green;
+.serviceButtonCard {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.readMoreHome {
+    margin-top: auto; /* pushes button to bottom */
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+ 
 
+.readMoreHome .read-more {
+    background: #000000;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin-left: -75px;
+}
+
+.readMoreHome .read-more:hover {
+    background: #ffffff;
+    color: #000000 !important;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.2);
 }
 
 /* Interior Start*/
@@ -3027,7 +3054,7 @@ width: 70px;
 
 .service-block-two .inner-box .content .read-more {
     position: relative;
-    color: #ed2024;
+    color: #ffffff;
     font-size: 15px;
     font-weight: 600;
     margin-top: 15px;

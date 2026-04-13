@@ -131,6 +131,13 @@
   }
 }
 
+@media only screen and (min-width: 320px) {
+  
+  .readMoreHome .read-more { 
+    margin-left: 0px;
+}
+}
+
 @media only screen and (min-width: 768px) {
   .main-menu .navigation > li > ul,
   .main-menu .navigation > li > ul > li > ul {
@@ -138,6 +145,9 @@
     visibility: hidden;
     opacity: 0;
   }
+  .readMoreHome .read-more { 
+    margin-left: -75px;
+}
 }
 
 @media only screen and (max-width: 1023px) {
