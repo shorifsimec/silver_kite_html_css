@@ -1,0 +1,60 @@
+.interior-section {
+  /* background: #f8f9fa; */
+}
+
+.interior-card {
+  border: none;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.interior-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+}
+
+.interior-card h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.interior-card p {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.why-section {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.why-list li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+
+.section {
+  margin: 10px 10px;
+  padding: 25px;
+  background: #2b3035;
+  border-left: 4px solid #ff2e2e;
+  border-radius: 8px;
+} 
+
+.card {
+  background: #1c1f23;
+  padding: 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+  border: 1px solid #333;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #ff2e2e;
+}
+

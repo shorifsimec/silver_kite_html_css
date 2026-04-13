@@ -1,0 +1,194 @@
+body {
+  background: #212529;
+}
+
+.brand-card {
+  border: none;
+  border-radius: 12px;
+  transition: 0.3s;
+  background: #ffffff;
+}
+
+.brand-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.brand-card h4 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.brand-card ul {
+  padding-left: 18px;
+}
+
+.brand-card ul li {
+  margin-bottom: 6px;
+}
+
+.step-box {
+  background: #2b3035;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.step-box:hover {
+  background: #ffffff;
+  color: #000;
+}
+
+.step-box span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #1c1f23;
+  color: #fff;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.step-box:hover span {
+  background: #1c1f23;
+  color: #fff;
+}
+
+.brandSummary{
+    color:#838383;
+}
+
+.brandConcept{
+    color: #000000;
+}
+
+
+.section {
+  margin: 10px;
+  padding: 20px;
+  background: #2b3035;
+  border-left: 4px solid #ff2e2e;
+  border-radius: 8px;
+}
+
+/* Let grid control layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+/* .singleCard{
+  width: 305px;
+} */
+.card {
+  background: #1c1f23;
+  padding: 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+  border: 1px solid #333;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #ff2e2e;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+  color: #ccc;
+}
+
+.highlight {
+  color: #ff2e2e;
+  font-weight: bold;
+}
+
+
+.cardBg{
+   padding: 20px;
+  background: #2b3035;
+  border-left: 4px solid #ff2e2e;
+  border-radius: 8px;
+}
+.cardHeader{
+  text-align: center;
+}
+.cardTitle{
+  
+}
+
+.cardPosition {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+   padding: 20px;
+  background: #2b3035;
+  border-left: 4px solid #ff2e2e;
+  border-radius: 8px;
+}
+
+
+
+.cardField {
+  flex: 2 0 300px;   /* 👈 key fix */
+  height: 100px;
+  background: #1c1f23;
+  padding: 20px;
+
+  border-radius: 8px;
+  transition: 0.3s;
+  border: 1px solid #333;
+  text-align: center; 
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+
+.cardField:hover {
+  transform: translateY(-5px);
+  border-color: #ff2e2e;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 15px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    margin: 8px;
+    padding: 12px;
+  }
+  .cardPosition{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: dodgerblue;
+  padding: 10px;
+
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+}
