@@ -893,6 +893,14 @@
   .sidebar-page-container {
     padding: 60px 0px 0px;
   }
+
+  .main-footer .logo-widget .text { 
+    margin-left: 43px; 
+}
+
+.service-block-two .inner-box .content .read-more { 
+    margin-top: 0px; 
+}
 }
 
 @media only screen and (max-width: 599px) {
@@ -1099,6 +1107,14 @@
     border: 1px solid #e9c37a;
     background: none;
   }
+
+  .service-block-two .inner-box { 
+    padding: 10px 25px 15px; 
+}
+.serviceIcon img {
+    width: 55px;
+    margin-top: -18px;
+}
 }
 
 @media only screen and (max-width: 479px) {
@@ -1127,7 +1143,7 @@
   .shop-feature-block .inner-box .icon-box,
   .service-block-two .inner-box .content .icon-box {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
   }
 
   .news-block .inner-box .lower-content {

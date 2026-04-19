@@ -195,7 +195,7 @@ p {
 .readMoreHome .read-more {
     background: #000000;
     color: #fff;
-    padding: 10px 22px;
+    padding: 5px 14px;
     border-radius: 50px;
     text-decoration: none;
     font-size: 14px;
@@ -2555,7 +2555,7 @@ img {
     font-size: 14px;
     font-weight: 400;
     padding-right: 60px;
-    margin-bottom: 35px;
+    margin-bottom: 35px; 
     line-height: 1.9em;
 }
 
@@ -2920,11 +2920,16 @@ img {
 
 /***
 
+
 ====================================================================
 	Services Section Two
 ====================================================================
 
 ***/
+
+
+ 
+
 
 .services-section-two {
     position: relative;
@@ -2934,14 +2939,14 @@ img {
 
 .service-block-two {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .service-block-two .inner-box {
     position: relative;
-    padding: 35px 25px 30px;
+    padding: 20px 25px 15px;
     background-color: #ffffff;
-    height: 250px;
+    height: 185px;
 }
 
 .service-block-two .inner-box:before {
@@ -3055,7 +3060,7 @@ width: 70px;
 .service-block-two .inner-box .content .read-more {
     position: relative;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     margin-top: 15px;
     display: inline-block;
