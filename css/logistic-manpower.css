@@ -1,0 +1,125 @@
+/* Section wrapper */
+.logistics-section {
+  background: #212529;
+  padding: 80px 0;
+}
+
+/* Section title */
+.sec-title h2 {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.sec-title .text {
+  color: #838383;
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+/* Service Cards */
+.service-block .inner-box {
+  background: #1c1f23;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  transition: 0.3s;
+  height: 100%;
+}
+
+.service-block .inner-box:hover {
+  transform: translateY(-5px);
+  border-color: #ff2e2e;
+}
+
+.service-block h3 {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.service-block ul {
+  padding-left: 18px;
+}
+
+.service-block ul li {
+  color: #ccc;
+  margin-bottom: 8px;
+}
+
+/* Process Section */
+.process-box {
+  background: #2b3035;
+  padding: 25px;
+  border-radius: 10px;
+  transition: 0.3s;
+  height: 100%;
+  text-align: center;
+}
+
+.process-box:hover {
+  background: #ffffff;
+  color: #000;
+}
+
+/* Step number circle */
+.process-box span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #1c1f23;
+  color: #fff;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.process-box:hover span {
+  background: #1c1f23;
+  color: #fff;
+}
+
+/* Process text */
+.process-box h4 {
+  color: #ff2e2e;
+  margin-bottom: 10px;
+}
+
+.process-box p {
+  color: #838383;
+}
+
+/* CTA Button (optional) */
+.theme-btn.btn-style-one {
+  background: #ff2e2e;
+  border: none;
+}
+
+.theme-btn.btn-style-one:hover {
+  background: #cc0000;
+}
+
+ 
+/* Mobile Responsive */
+@media (max-width: 767px) {
+
+  .logistics-section {
+    padding: 50px 15px;
+  }
+
+  .sec-title h2 {
+    font-size: 24px;
+  }
+
+  .service-block .inner-box {
+    padding: 20px;
+  }
+
+ .process-box {
+    margin-bottom: 20px;
+  }
+  
+
+}
+
+
+ 
