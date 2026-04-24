@@ -1115,6 +1115,25 @@ img {
     font-family: "Poppins", sans-serif;
 }
 
+
+.main-menu .navigation > li > ul,
+.main-menu .navigation > li > ul > li > ul {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 240px;
+    z-index: 100;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform: translateY(20px);
+    transition: all 300ms ease;
+
+    background: #161616;
+}
+
+
 .main-menu .navigation > li:hover > a,
 .main-menu .navigation > li.current > a {
     color: #ed2024;

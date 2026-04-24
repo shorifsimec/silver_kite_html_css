@@ -1,0 +1,214 @@
+body {
+  background: #212529;
+  color: #fff;
+}
+
+
+.container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .mb-4 { margin-bottom: 25px; }
+    .mb-5 { margin-bottom: 40px; }
+
+
+/* =========================
+   HERO / TITLE AREA
+========================= */
+.page-title h2 {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.brandSummary {
+  color: #b8b8b8;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+/* =========================
+   PREMIUM CARD STYLE
+========================= */
+.brand-card {
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  background: linear-gradient(145deg, #1c1f23, #2b3035);
+  transition: 0.35s ease;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  color: #fff;
+}
+
+.brand-card:hover {
+  transform: translateY(-8px);
+  border-color: #ff2e2e;
+ }
+
+.brand-card h4 {
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+/* =========================
+   LIST STYLE
+========================= */
+.brand-card ul {
+  padding-left: 0;
+}
+
+.brand-card ul li {
+  list-style: none;
+  padding: 6px 0;
+  color: #cfcfcf;
+  position: relative;
+  padding-left: 20px;
+}
+
+.brand-card ul li::before {
+  content: "✦";
+  position: absolute;
+  left: 0;
+  color: #ff2e2e;
+}
+
+/* =========================
+   STEP BOX (UPGRADED)
+========================= */
+.step-box {
+  background: linear-gradient(145deg, #2b3035, #1c1f23);
+  padding: 25px;
+  border-radius: 14px;
+  transition: 0.4s;
+  border: 1px solid rgba(255,255,255,0.05);
+  height: 100%;
+}
+
+.step-box:hover {
+  background: #ffffff;
+  color: #000;
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.step-box span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #ff2e2e;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 12px;
+  box-shadow: 0 5px 15px rgba(255,46,46,0.3);
+}
+
+.step-box h6 {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.step-box p {
+  font-size: 14px;
+  color: #ddd;
+}
+
+.step-box:hover p {
+  color: #444;
+}
+
+/* =========================
+   GRID / SERVICE CARDS
+========================= */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 22px;
+}
+
+.card {
+  background: #14171a;
+  padding: 22px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.06);
+  transition: 0.35s ease;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+   opacity: 0;
+  transition: 0.4s;
+}
+
+.card:hover::after {
+  opacity: 1;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  border-color: #ff2e2e;
+}
+
+/* =========================
+   HIGHLIGHT TEXT
+========================= */
+.highlight {
+  color: #ff2e2e;
+  font-weight: 700;
+}
+
+
+/* Fix card spacing */
+.brand-card {
+  padding: 25px;
+}
+
+/* Better paragraph inside cards */
+.brand-card p {
+  margin-top: 10px;
+  color: #cfcfcf;
+  line-height: 1.7;
+}
+
+/* Better spacing between sections */
+.grid {
+  margin-top: 30px;
+}
+
+/* Avoid overriding bootstrap container */
+.container {
+  max-width: 1100px;
+}
+
+
+/* =========================
+   RESPONSIVE FIX
+========================= */
+@media (max-width: 767px) {
+  .page-title h2 {
+    font-size: 28px;
+  }
+
+  .step-box {
+    margin-bottom: 15px;
+  }
+}
