@@ -45,11 +45,7 @@
   border-color: #ff2e2e;
 }
 
-/* Highlight center node */
-.highlight-card {
-  border: 1px solid #ff2e2e;
-  box-shadow: 0 0 20px rgba(255,46,46,0.2);
-}
+ 
 
 /* Banner */
 .eco-banner {
